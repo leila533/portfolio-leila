@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfólio profissional de Leila Victoria, desenvolvedora e estudante de Sistemas de Informação." />
+  <title>A Garota do Código | Portfólio</title>
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fonts e ícones -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins&display=swap" rel="stylesheet" />
+
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Estilos principais -->
+  <link rel="stylesheet" href="layout.css" />
+  <style>
+    /* Canvas para alvo de raios */
+    #bg-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+  </style>
+</head>
+<body>
+  <!-- Animação de fundo -->
+  <canvas id="bg-canvas"></canvas>
+  <div class="site-container">
+
+    <header class="hero">
+      <div class="container">
+        <div class="top-bar">
+          <h1 data-aos="fade-down">Leila Victoria</h1>
+          <button id="toggle-theme" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+        </div>
+        <div class="header-content" data-aos="fade-up">
+          <img src="assets/foto minha.jpg" alt="Foto de Leila Victoria" class="profile-photo" />
+          <p>Desenvolvedora Fullstack em formação | Estudante de Sistemas de Informação</p>
+        </div>
+        <nav data-aos="fade-up" data-aos-delay="300">
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#timeline">Linha do Tempo</a>
+          <a href="#certificados">Certificados</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#softskills">Soft Skills</a>
+          <a href="#curriculo">Currículo</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="section" data-aos="fade-right">
+        <h2>Sobre mim</h2>
+        <p>Olá! Me chamo <strong>Leila Victoria</strong>, tenho 20 anos e sou estudante do 5º semestre de Sistemas de Informação na UNIP (bolsista). Estou em transição da área administrativa/financeira para Tecnologia da Informação, com foco em Segurança da Informação, Prevenção a Fraudes e Gestão de Acessos. Tenho experiência com atendimento, organização financeira e projetos digitais, além de conhecimentos técnicos em lógica de programação, Python, SQL e cibersegurança.</p>
+      </section>
+
+      <section id="habilidades" class="section" data-aos="fade-left">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-grid">
+          <span><i class="fab fa-html5"></i> HTML5</span>
+          <span><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span><i class="fab fa-js"></i> JavaScript</span>
+          <span><i class="fab fa-python"></i> Python</span>
+          <span><i class="fab fa-java"></i> Java</span>
+          <span><i class="fas fa-database"></i> SQL</span>
+          <span><i class="fab fa-git-alt"></i> Git</span>
+          <span><i class="fas fa-shield-alt"></i> Segurança da Informação</span>
+          <span><i class="fas fa-project-diagram"></i> Metodologias Ágeis</span>
+          <span><i class="fas fa-user-shield"></i> IAM</span>
+          <span><i class="fas fa-network-wired"></i> Segurança de Redes</span>
+          <span><i class="fas fa-file-excel"></i> Excel</span>
+          <span><i class="fas fa-cloud"></i> Google Drive</span>
+        </div>
+      </section>
+
+      <section id="timeline" class="section" data-aos="fade-up">
+        <h2>Linha do Tempo</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Ensino Fundamental</h3>
+            <p>Desenvolvi o projeto <strong>Cartografia Digital do bairro Grajaú</strong>, premiado em competições estudantis com mais de 200 escolas.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2022 - Conclusão do Ensino Médio</h3>
+            <p>Formada na Escola Samuel Wainer e realizei o curso de <strong>Operadora de Microcomputador</strong> no Centro Irmã Tecla Merlo.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2023 - Bolsa na UNIP</h3>
+            <p>Iniciei o Bacharelado em <strong>Sistemas de Informação</strong> na UNIP com bolsa de estudos.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2023 - Recepcionista na Geração Saúde</h3>
+            <p>Atuei como recepcionista (sem registro), atendendo alunos e gerenciando cadastros e agendamentos.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Fev a Mai 2024 - Maxicon</h3>
+            <p>Trabalhei como <strong>Auxiliar Geral e Financeiro</strong>, realizando rotinas administrativas e controle financeiro.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Mar a Mai 2025 - ACP Terceirizações</h3>
+            <p>Atuei como <strong>Assistente Financeira</strong>, com foco em contas e emissão de notas fiscais.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>2025 - Retorno à Geração Saúde</h3>
+            <p>Retornei ao cargo de <strong>Recepcionista</strong> na academia, equilibrando trabalho e estudos de TI.</p>
+          </div>
+          <div class="timeline-item">
+            <h3>Atualidade</h3>
+            <p>No 5º semestre de Sistemas de Informação, trabalhando e buscando estágio em TI e Cibersegurança.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificados" class="section" data-aos="fade-up">
+        <h2>Certificados</h2>
+        <ul>
+          <li>🔐 Segurança em Tecnologia da Informação – Fundação Bradesco (2025)</li>
+          <li>🧠 Lógica de Programação – SENAI (2024)</li>
+          <li>💡 Imersão Dev com Google Gemini – Alura + Google (2025)</li>
+          <li>👥 Gestão de Pessoas – Sebrae (2023)</li>
+          <li>💻 Operadora de Microcomputador – Centro Irmã Tecla Merlo (2022)</li>
+        </ul>
+      </section>
+
+    <section id="projetos" class="section" data-aos="fade-up">
+  <h2>Projetos</h2>
+  <div class="projects-scroll-container" tabindex="0" aria-label="Projetos em scroll horizontal">
+    <div class="card" tabindex="0">
+      <h3>
+        📊 Relatório de Segurança da Informação
+        <a href="https://github.com/leilavictoria/relatorio_acessos_negados" target="_blank" rel="noopener noreferrer" aria-label="Ver no GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </h3>
+      <p>Gera relatórios de acessos negados (Excel, CSV, gráficos e PDF) para análise de segurança.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>
+        🐍 Script Python: relatorio_acessos_negados.py
+        <a href="https://github.com/leilavictoria/relatorio_acessos_negados" target="_blank" rel="noopener noreferrer" aria-label="Ver no GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </h3>
+      <p>Automatiza a extração e geração de relatórios completos de acessos negados.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>
+        🔐 Controle de Acessos: controle_acessos.py
+        <a href="https://github.com/leilavictoria/controle_acessos" target="_blank" rel="noopener noreferrer" aria-label="Ver no GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </h3>
+      <p>Gerencia e registra tentativas de login e acessos no sistema.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>
+        📈 Monitoramento de Login: monitoramento_login.py
+        <a href="https://github.com/leilavictoria/monitoramento_login" target="_blank" rel="noopener noreferrer" aria-label="Ver no GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </h3>
+      <p>Monitora e registra logins suspeitos ou fora do padrão.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>
+        🗄️ Base de dados
+        <a href="https://github.com/leilavictoria/base-de-dados" target="_blank" rel="noopener noreferrer" aria-label="Ver no GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </h3>
+      <p>Arquivos como acessos.xlsx e logins.csv usados para gerar estatísticas e relatórios.</p>
+    </div>
+    <div class="card" tabindex="0">
+      <h3>
+        🧾 SQL: transacoes_suspeitas.sql
+        <a href="https://github.com/leilavictoria/transacoes_suspeitas" target="_blank" rel="noopener noreferrer" aria-label="Ver no GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </h3>
+      <p>Consulta em banco de dados para identificar possíveis transações suspeitas.</p>
+    </div>
+  </div>
+</section>
+
+      <section id="servicos" class="section" data-aos="fade-right">
+        <h2>O que eu faço</h2>
+        <ul class="servicos-lista">
+          <li>🖥️ Criação de sites e portfólios personalizados</li>
+          <li>🔒 Segurança da Informação básica</li>
+          <li>📊 Organização de dados e planilhas com Excel e SQL</li>
+          <li>📱 Sites responsivos para celular e desktop</li>
+          <li>🧾 Emissão de relatórios financeiros</li>
+        </ul>
+      </section>
+
+      <section id="softskills" class="section" data-aos="fade-up">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>✅ Comunicação clara</li>
+          <li>✅ Organização</li>
+          <li>✅ Trabalho em equipe</li>
+          <li>✅ Resolução de problemas</li>
+          <li>✅ Proatividade</li>
+        </ul>
+      </section>
+<section id="curriculo" class="section" data-aos="zoom-in">
+  <h2>Meu Currículo</h2>
+  <div class="cv-card">
+    <div class="cv-info">
+      <i class="fas fa-file-pdf cv-icon"></i>
+      <div>
+        <h3>Currículo Completo</h3>
+        <p>Se interessou no meu trabalho? Baixe meu currículo e faça parte da minha trajetória.</p>
+      </div>
+    </div>
+    <a id="download-cv" href="assets/Curriculo_Leila_Borges_Completo.docx_20250629_160520_0000.pdf" class="btn-download" download>
+      <i class="fas fa-download"></i> Baixar Currículo
+    </a>
+  </div>
+</section>
+
+<!-- Script de Confetes + Emojis (versão ajustada) -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+  document.getElementById('download-cv').addEventListener('click', function () {
+    const colors = ['#6a0dad', '#ffd700']; // Roxo e dourado
+    const duration = 1800;
+    const end = Date.now() + duration;
+
+    // Confetes com menos partículas
+    (function frame() {
+      confetti({
+        particleCount: 15,
+        angle: 60,
+        spread: 60,
+        origin: { x: 0 },
+        colors: colors
+      });
+      confetti({
+        particleCount: 15,
+        angle: 120,
+        spread: 60,
+        origin: { x: 1 },
+        colors: colors
+      });
+      if (Date.now() < end) {
+        requestAnimationFrame(frame);
+      }
+    })();
+
+    // Emojis flutuantes
+    const emojis = ['✨', '🎉', '⭐', '😍'];
+    for (let i = 0; i < 20; i++) {
+      const emoji = document.createElement('span');
+      emoji.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+      emoji.style.position = 'fixed';
+      emoji.style.fontSize = `${Math.random() * 22 + 18}px`;
+      emoji.style.top = `${Math.random() * 100}vh`;
+      emoji.style.left = `${Math.random() * 100}vw`;
+      emoji.style.pointerEvents = 'none';
+      emoji.style.zIndex = '9999';
+      emoji.style.animation = 'floatEmoji 1.6s ease-out forwards';
+      document.body.appendChild(emoji);
+      setTimeout(() => emoji.remove(), 1600);
+    }
+  });
+
+  // Estilo da animação
+  const style = document.createElement('style');
+  style.innerHTML = `
+    @keyframes floatEmoji {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-100px) scale(1.5); opacity: 0; }
+    }
+  `;
+  document.head.appendChild(style);
+</script>
+
+
+
+      <section id="contato" class="section" data-aos="zoom-in">
+        <h2>Contato</h2>
+        <div class="contact-container">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group"><label for="name">Nome</label><input type="text" id="name" name="name" placeholder="Seu nome" required /></div>
+            <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="Seu e-mail" required /></div>
+            <div class="form-group"><label for="message">Mensagem</label><textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea></div>
+            <button type="submit" class="btn-submit"><i class="fas fa-paper-plane"></i> Enviar Mensagem</button>
+          </form>
+          <div class="contact-info">
+            <p>Ou envie um e-mail diretamente:</p>
+            <div class="info-item"><i class="fas fa-envelope"></i><a href="mailto:leilavlb845@gmail.com">leilavlb845@gmail.com</a></div>
+            <div class="info-item"><i class="fas fa-phone"></i><a href="tel:+5511984912618">(11) 98491‑2618</a></div>
+            <div class="social"><a href="https://www.linkedin.com/in/leila-lima-b814ba23b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a><a href="https://github.com/leilavictoria" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Leila Victoria. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    const canvas=document.getElementById('bg-canvas'),ctx=canvas.getContext('2d');let w,h,lines=[];function resize(){w=canvas.width=innerWidth;h=canvas.height=innerHeight;}class Ray{constructor(){this.reset()}reset(){this.x=Math.random()*w;this.y=Math.random()*h;this.len=100+Math.random()*200;this.speed=2+Math.random()*3;this.angle=Math.random()*Math.PI*2;}update(){this.x+=Math.cos(this.angle)*this.speed;this.y+=Math.sin(this.angle)*this.speed;if(this.x<0||this.x>w||this.y<0||this.y>h)this.reset()}draw(){ctx.beginPath();ctx.moveTo(this.x,this.y);ctx.lineTo(this.x-Math.cos(this.angle)*this.len,this.y-Math.sin(this.angle)*this.len);ctx.strokeStyle='rgba(100,150,255,0.2)';ctx.lineWidth=1;ctx.stroke()}}function init(){resize();lines=Array.from({length:60},()=>new Ray())}function animate(){ctx.clearRect(0,0,w,h);lines.forEach(r=>{r.update();r.draw()});requestAnimationFrame(animate)}window.addEventListener('resize',resize);init();animate();
+  </script>
+</body>
+</html>
